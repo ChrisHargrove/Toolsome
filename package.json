@@ -5,7 +5,10 @@
     "description": "Tool Package that bundles basic tools and tracks updates.",
     "documentationUrl": "",
     "changelogUrl": "",
-    "liscenceUrl": "",
+    "licensesUrl": "",
+    "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+    },
     "keywords": [
         "Tools",
         "PackageManager",
