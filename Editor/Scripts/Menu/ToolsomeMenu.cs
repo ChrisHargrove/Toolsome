@@ -1,7 +1,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace Toolsome.Editor
+namespace Toolsome.Editor.Menu
 {
     /// <summary>
     /// Class that handles all of the Toolsome Menu setup.
@@ -16,6 +16,7 @@ namespace Toolsome.Editor
         [MenuItem("Tools/Toolsome/Settings")]
         public static void OpenSettings()
         {
+            SettingsService.OpenProjectSettings("Tools/Toolsome");
         }
     }
 }
