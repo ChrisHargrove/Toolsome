@@ -1,0 +1,19 @@
+{
+    "name": "com.unquestionablegames.toolsome",
+    "version": "0.1.0",
+    "displayName": "Toolsome",
+    "description": "Tool Package that bundles basic tools and tracks updates.",
+    "documentationUrl": "",
+    "changelogUrl": "",
+    "liscenceUrl": "",
+    "keywords": [
+        "Tools",
+        "PackageManager",
+        "Unity"
+    ],
+    "author": {
+        "name": "Chris Hargrove",
+        "email": "batteryacid.ch@gmail.com",
+        "url": "http://www.unquestionablegames.com"
+    }
+}
