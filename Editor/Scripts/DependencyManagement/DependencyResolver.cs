@@ -99,7 +99,7 @@ namespace Toolsome.Editor.DependencyManagement
                 return null;
             }
 
-            return JsonConvert.DeserializeObject<PackageInfo>(File.ReadAllText(fullPath));
+            return JsonConvert.DeserializeObject<PackageInfo>(File.ReadAllText(fullPath), JsonSettings.DefaultSettings);
         }
 
         private static bool TryLoadManifest(out ManifestInfo manifest)
@@ -109,13 +109,13 @@ namespace Toolsome.Editor.DependencyManagement
                 manifest = null;
                 return false;
             }
-            manifest = JsonConvert.DeserializeObject<ManifestInfo>(File.ReadAllText(ManifestPath));
+            manifest = JsonConvert.DeserializeObject<ManifestInfo>(File.ReadAllText(ManifestPath), JsonSettings.DefaultSettings);
             return true;
         }
 
         private static void SaveManifest(ManifestInfo manifest)
         {
-            File.WriteAllText(ManifestPath, JsonConvert.SerializeObject(manifest));
+            File.WriteAllText(ManifestPath, JsonConvert.SerializeObject(manifest, JsonSettings.DefaultSettings));
         }
     }
 }
