@@ -7,7 +7,7 @@ using UnityEditor;
 namespace Toolsome.Editor.DependencyManagement
 {
     [Serializable]
-    internal class PackageInfo
+    public class PackageInfo
     {
         public string Name { get; }
         public string Version { get; }
@@ -22,7 +22,7 @@ namespace Toolsome.Editor.DependencyManagement
     }
 
     [Serializable]
-    internal class PackageAuthor
+    public class PackageAuthor
     {
         public string Name { get; }
         public string Email { get; }
