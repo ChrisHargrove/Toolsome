@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Toolsome.Editor.PackageManagement
+namespace Toolsome.Editor.DependencyManagement
 {
     [Serializable]
     internal class ManifestInfo

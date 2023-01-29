@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using UnityEditor;
 
-namespace Toolsome.Editor.PackageManagement
+namespace Toolsome.Editor.DependencyManagement
 {
     [Serializable]
     internal class PackageInfo

@@ -5,7 +5,7 @@ using Newtonsoft.Json;
 using UnityEditor;
 using UnityEngine;
 
-namespace Toolsome.Editor.PackageManagement
+namespace Toolsome.Editor.DependencyManagement
 {
     [InitializeOnLoad]
     internal static class DependencyResolver
