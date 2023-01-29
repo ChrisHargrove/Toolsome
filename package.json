@@ -7,7 +7,9 @@
     "changelogUrl": "",
     "licensesUrl": "",
     "dependencies": {
-        "com.unity.nuget.newtonsoft-json": "3.0.2",
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+    },
+    "gitDependencies": {
         "com.unquestionablegames.unigit": "https://github.com/ChrisHargrove/UniGit.git"
     },
     "keywords": [
